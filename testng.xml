@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite">
-<test name="Test">
+<suite name="Devops Project">
+<test name="Verify Site">
 <classes>
    <class 
    	  name = "php.verifysite">
