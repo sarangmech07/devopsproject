@@ -18,7 +18,7 @@ public class verifysite {
   WebDriver driver;
   @BeforeTest
   public void openapp() {
-	  System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/TestJob/chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.get("http://35.193.151.202:8083/");
